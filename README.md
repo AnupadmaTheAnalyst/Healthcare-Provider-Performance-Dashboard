@@ -111,13 +111,4 @@ Total Billing Amount =
 Average Billing Amount per Visit = 
 DIVIDE([Total Billing], [Total Patients])
 
----
-
-### 🖼️ Dashboard Previews
-![Detail Analysis Dashboard-Light](Images/Detail_Light.png)
-![Detail Analysis Dashboard-Dark](Images/Detail_Dark.png)
-
-## 🎥 Dashboard Demo Video
-
-Watch the demo here:  
-[Healthcare Provider Dashboard Demo](Video/Healthcare_Provider_Dashboard.mp4)
+----
