@@ -89,42 +89,13 @@ This structure enhances **query performance, clarity, and DAX efficiency**.
 - Launch engagement initiatives in Q3–Q4 to stabilize revenue  
 
 ---
+### 🖼️ Dashboard Previews
+![Detail Analysis Dashboard-Light](Images/Detail_Light.png)
+![Detail Analysis Dashboard-Dark](Images/Detail_Dark.png)
+![Trend Analysis Dashboard-Light](Images/Trend_Light.png)
+![Trend Analysis Dashboard-Dark](Images/Trend_Dark.png)
 
-## 🧮 Sample DAX Measures
-### 1. Date Table
-```DAX
-DateTable =
-ADDCOLUMNS(
-    CALENDARAUTO(),
-    "Year", YEAR([Date]),
-    "Month", FORMAT([Date], "mmm"),
-    "Monthnum", MONTH([Date]),
-    "Weekday", FORMAT([Date], "ddd"),
-    "Weeknum", WEEKDAY([Date]),
-    "Qtr", "Q-" & FORMAT([Date], "Q"),
-    "WeekType", IF(WEEKDAY([Date]) = 1 || WEEKDAY([Date]) = 7, "Weekend", "Weekday")
-)
+## 🎥 Dashboard Demo Video
 
-Total Billing Amount =
-[Total Medication cost] + [Total Room Charges] + [Total Treatment Cost]
-
-Average Billing Amount per Visit = 
-DIVIDE([Total Billing], [Total Patients])
-
-----
-
-
-
-
----
-
-💡 **Important:**  
-To make this work smoothly:
-- Place your images in a folder named **`Images/`**  
-- Place your video (if included) in a folder named **`Video/`**  
-- Keep the same filenames (`Detail_Light.png`, `Detail_Dark.png`, etc.) so the links display correctly on GitHub  
-
----
-
-Would you like me to now show you how to write a **short Git commit message and push steps** (so your README, images, and `.docx` upload look neat and professional on GitHub)?
-
+Watch the demo here:  
+[Healthcare Provider Dashboard Demo](Video/Healthcare_Provider_Dashboard.mp4)
