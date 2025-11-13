@@ -112,3 +112,19 @@ Average Billing Amount per Visit =
 DIVIDE([Total Billing], [Total Patients])
 
 ----
+
+
+
+
+---
+
+💡 **Important:**  
+To make this work smoothly:
+- Place your images in a folder named **`Images/`**  
+- Place your video (if included) in a folder named **`Video/`**  
+- Keep the same filenames (`Detail_Light.png`, `Detail_Dark.png`, etc.) so the links display correctly on GitHub  
+
+---
+
+Would you like me to now show you how to write a **short Git commit message and push steps** (so your README, images, and `.docx` upload look neat and professional on GitHub)?
+
