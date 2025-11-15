@@ -88,6 +88,19 @@ This structure enhances **query performance, clarity, and DAX efficiency**.
 - Optimize insurance handling to maintain 66% coverage  
 - Launch engagement initiatives in Q3–Q4 to stabilize revenue  
 ---
+## 🧮 Sample DAX Measures
+- DateTable = ADDCOLUMNS(
+    CALENDARAUTO(),
+    "Year", YEAR([Date]),
+    "Month", FORMAT([Date], "mmm"),
+    "Monthnum", MONTH([Date]),
+    "Weekday", FORMAT([Date], "ddd"),
+    "Weeknum", WEEKDAY([Date]),
+    "Qtr", "Q-" & FORMAT([Date], "Q"),
+    "WeekType", IF(WEEKDAY([Date]) = 1 || WEEKDAY([Date]) = 7, "Weekend", "Weekday")
+)
+- Total Billing Amount = [Total Medication cost] + [Total Room Charges] + [Total Treatment Cost]
+- Average Billing Amount per Visit = DIVIDE([Total Billing], [Total Patients])
 ---
 ### 🖼️ Dashboard Previews
 ![Detail Analysis Dashboard-Light](Images/Detail_Light.png)
@@ -100,17 +113,5 @@ This structure enhances **query performance, clarity, and DAX efficiency**.
 Watch the demo here:  
 [Healthcare Provider Dashboard Demo](Video/Healthcare_Provider_Dashboard.mp4)
 
-## 🧮 Sample DAX Measures
-1. DateTable = ADDCOLUMNS(
-    CALENDARAUTO(),
-    "Year", YEAR([Date]),
-    "Month", FORMAT([Date], "mmm"),
-    "Monthnum", MONTH([Date]),
-    "Weekday", FORMAT([Date], "ddd"),
-    "Weeknum", WEEKDAY([Date]),
-    "Qtr", "Q-" & FORMAT([Date], "Q"),
-    "WeekType", IF(WEEKDAY([Date]) = 1 || WEEKDAY([Date]) = 7, "Weekend", "Weekday")
-)
-2. Total Billing Amount = [Total Medication cost] + [Total Room Charges] + [Total Treatment Cost]
-3. Average Billing Amount per Visit = DIVIDE([Total Billing], [Total Patients])
+
 
