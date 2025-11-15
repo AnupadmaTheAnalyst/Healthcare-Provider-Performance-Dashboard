@@ -5,7 +5,7 @@ Power BI project analyzing healthcare provider billing performance with light &a
 
 ## 📘 Project Overview
 This Power BI project analyzes healthcare billing and operational data to help healthcare administrators make **data-driven decisions**.  
-It provides **key financial, departmental, and temporal insights** — empowering stakeholders to optimize costs, improve patient service delivery, and enhance billing efficiency.
+It provides **key financial, departmental, and temporal insights** empowering stakeholders to optimize costs, improve patient service delivery, and enhance billing efficiency.
 
 ---
 
