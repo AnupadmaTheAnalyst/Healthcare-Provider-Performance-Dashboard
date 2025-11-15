@@ -101,11 +101,7 @@ Watch the demo here:
 [Healthcare Provider Dashboard Demo](Video/Healthcare_Provider_Dashboard.mp4)
 
 ## 🧮 Sample DAX Measures
-
-### 1. Date Table
-```DAX
-DateTable =
-ADDCOLUMNS(
+1. DateTable = ADDCOLUMNS(
     CALENDARAUTO(),
     "Year", YEAR([Date]),
     "Month", FORMAT([Date], "mmm"),
