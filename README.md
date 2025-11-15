@@ -1,4 +1,4 @@
-# Healthcare Provider Performance Analysis
+# Healthcare_Provider_Performance_Power BI Dashboard
 Power BI project analyzing healthcare provider billing performance with light &amp; dark mode dashboards, trend analysis, and actionable business insights.
 
 # 🏥 Healthcare Provider Performance Analysis
