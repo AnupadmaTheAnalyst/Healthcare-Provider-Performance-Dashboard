@@ -1,20 +1,17 @@
-# Healthcare_Provider_Performance_Power BI Dashboard
-Power BI project analyzing healthcare provider billing performance with light &amp; dark mode dashboards, trend analysis, and actionable business insights.
+# Healthcare Provider Performance Dashboard
 
-# 🏥 Healthcare Provider Performance Analysis
+## 📌 Business Context
 
-## 📘 Project Overview
-This Power BI project analyzes healthcare billing and operational data to help healthcare administrators make **data-driven decisions**.  
-It provides **key financial, departmental, and temporal insights** empowering stakeholders to optimize costs, improve patient service delivery, and enhance billing efficiency.
+Healthcare providers and administrators need data-driven insights to evaluate cost efficiency, quality of care, patient outcomes, and operational performance across facilities and regions. This dashboard consolidates key healthcare performance metrics to support strategic decision-making, cost allocation, and quality benchmark analysis.
 
 ---
 
-## 🎯 Business Objectives
-- Identify departments generating the most revenue  
-- Understand insurance coverage impact on patient costs  
-- Analyze billing trends across years, quarters, months, and weekdays  
-- Compare weekday vs weekend performance  
-- Determine top-performing procedures and diagnoses  
+## 🎯 Project Objectives
+
+- Analyze cost and utilization patterns across healthcare providers
+- Compare facility performance using interactive visuals
+- Identify cost outliers and efficiency gaps
+- Support operational and strategic planning decisions
 
 ---
 
